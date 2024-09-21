@@ -1,0 +1,15 @@
+{
+	"manifest_version": 3,
+	"name": "Hello Extensions",
+	"description": "Base Level Extension",
+	"version": "1.0",
+	"permissions": ["identity"], //Should probs change later
+	"oauth2": {
+		"client_id": "1034457272157-1q5ne5ig8l1728epvgoi81j4bhltct72.apps.googleusercontent.com",
+		"scopes": ["https://www.googleapis.com/auth/drive", "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/documents.readonly", "https://www.googleapis.com/auth/drive.readonly"]
+	},
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": "favicon.png"
+	}
+}
